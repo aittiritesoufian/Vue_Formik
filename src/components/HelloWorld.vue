@@ -84,6 +84,7 @@ export default {
           label: "Faites un choix",
           placeholder: "Faites un choix",
           disable: false,
+          value: "choice2",
           options: [
               {
                   value: "choice1",
@@ -91,8 +92,7 @@ export default {
               },
               {
                   value: "choice2",
-                  label: "Second Choix !",
-                  selected:true,
+                  label: "Second Choix !"
               }
           ]
       },
